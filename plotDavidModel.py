@@ -52,7 +52,7 @@ alpha = np.arange(alpha_min, alpha_max, alpha_step)
 Y = np.arange(Y_min, Y_max, Y_step)
 
 #%% Draw interactive plot window
-fig = plt.figure(figsize = (25/2.54, 15/2.54 ))
+fig = plt.figure(figsize = (30/2.54, 15/2.54 ))
 plt.ax = plt.subplot(111)
 plt.subplots_adjust(left=0.1, bottom=0.45) # Leave blank space
 initStrain0 = 0; mu0 = 0.7; E0 = 65; alpha0 = 4; Y0 = 2.7 # Initial parameter values
