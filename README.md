@@ -12,4 +12,4 @@ Fit the modelled curve (red line) to the data (blue line), changing the model pa
 
 Standard deviation or error between the modelled stress-strain curve and the data is printed to the terminal.
 
-![Screenshot](/images/screenshot.jpg)
+![Screenshot](/images/screenshot.png)
