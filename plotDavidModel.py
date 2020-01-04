@@ -51,12 +51,12 @@ def std(model, data): # Calculate standard deviation beteen model and data
 alpha = np.arange(alpha_min, alpha_max, alpha_step)
 Y = np.arange(Y_min, Y_max, Y_step)
 
-#%% Interactive plot window
+#%% Draw interactive plot window
 fig = plt.figure(figsize = (25/2.54, 15/2.54 ))
 plt.ax = plt.subplot(111)
 plt.subplots_adjust(left=0.1, bottom=0.45) # Leave blank space
 initStrain0 = 0; mu0 = 0.7; E0 = 65; alpha0 = 4; Y0 = 2.7 # Initial parameter values
-mod = DavidModel(model_stress,  1e3*E0 , mu0 , Y0 , 1e-4*alpha0, initStrain0)  
+mod = DavidModel(model_stress, 1e3*E0 , mu0 , Y0 , 1e-4*alpha0, initStrain0)  
  
 # plot data stress-strain curve
 lData, = plt.plot(data_strain, data_stress, lw=2, color='blue') 
